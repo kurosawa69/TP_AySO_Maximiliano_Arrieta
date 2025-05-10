@@ -1,0 +1,107 @@
+ls -l
+mkdir clase4
+cd clase4
+cat archivo1.txt
+ls -ls
+cat> archivo1.txt
+cat > archivo1.txt
+cat>archivo1.txt
+ls -l
+cat > archivo1.txt
+ls -l
+cat > archivo2.txt
+ls -l
+cat archivo1.txt archivo2.txt >archivo3.txt
+car archivo3.txt
+cat archivo3.txt
+date
+tree
+sudo apt install tree
+sudo snap install tree
+tree
+mkdir -p {dir1, dir2}/subdir{1..3}
+tree
+whoami
+groupadd Alumnos
+sudo groupadd Alumnos
+sudo useradd -m -s /bin/bash -c "Arrieta Maxi" -G Alumnos de Maxi
+cat etc/group
+cat /etc/group
+pwd
+sudo passwd Alumnos
+su - Alumnos
+pwd
+sudo useradd -m -s /bin/bash -c "Alumnos" -G Alumnos de Maxi
+cat /etc/group
+sudo passwd Alumnos
+exit
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+Cd
+mkdir repogit
+cd repogit
+git clone git@github.com:kurosawa69/TP_AySO.git
+cd t
+cd TP_AySO/
+pwd
+ls -l
+cat/etc/os-release
+cat /etc/os-release
+cd
+cd repogit
+TP_AySO/
+TP_AySO_Maximiliano_Arrieta/
+TP_AySO/
+exit
+pwd
+Alumno: <Tu-Nombre>
+División: <Numero>
+<...m División: 211
+Turno: Tarde
+EOFlsls
+exit
+pwd
+ls
+ls -l
+cd repogit
+ls
+cd TP_AySO_Maximiliano_Arrieta
+cat <<EOF >> README.md
+Alumno: Maximiliano
+Division: 211
+Turno: Tarde
+EOF
+
+cat README.md
+git add README.md datos_usuarios.txt
+ls -l
+git add README.md datos_usuario
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+pwd
+cd home
+cd
+cd T
+cd repogit/TP_AySO_Maximiliano_Arrieta/
+cd ~
+echo $HOME
+cd repogit/TP_AySO_Maximiliano_Arrieta/
+ls -ls ~/repogit
+ls -ls
+ls -la
+mkdir -p ~/tp_ayso_maximiliano_arrieta/{materia1,materia2}/{uni1,uni2,uni3}
+tree ~/tp_ayso_maximiliano_arrieta
+echo '#!/bin/bash' > ~/script_dir.sh
+echo 'mkdir -p ~/tp_ayso_maximiliano_arrieta/{materia1,materia2}/{uni1,uni2,uni3}' >> ~/script_dir.sh
+chmod +x ~/script_dir.sh
+~/script_dir.sh
+tree ~/tp_ayso_maximiliano_arrieta
+git add .
+git commit -m "ADD: añadiendo Script"
+git push
+history -a
+$HOME/.bash_history
+sudo $HOME/.bash_history
+history -a
